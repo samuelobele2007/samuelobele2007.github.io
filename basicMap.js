@@ -1,1 +1,1 @@
-console.log("basicMap.js loaded."):
+console.log("basicMap.js loaded.");
