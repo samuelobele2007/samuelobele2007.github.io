@@ -15,5 +15,12 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 L.marker([ 35.2176665, -80.831473],{
   title: "hello from CPCC!"})
-  .bindPopup("Hello from CPCC")
+  .bindPopup(`
+  <center>
+  <h2>Hello from CPCC</h2>
+  <hr>
+  <a href="https://www.cpcc.edu">Click Here to Visit CPCC's website</a><br>
+  <iframe width="280" height="160" src="https://www.youtube.com/embed/9UWwLKjaPDQ?si=xW2HUrTSFkbatFQ2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </center>
+  `)
   .addTo(map);
