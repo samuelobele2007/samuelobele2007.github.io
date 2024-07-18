@@ -38,7 +38,7 @@ let baseMMaps = {
 }
   let overlayMaps ={
     CPCC: CPCC
-)
+  }
 
   let map = L.map("map", {
   center: [35.2176665, -80.831473],
