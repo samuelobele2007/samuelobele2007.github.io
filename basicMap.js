@@ -49,4 +49,4 @@ let overlayMaps = {
 
 L.control.layers(baseMaps, overlayMaps, {
   collapsed: false
-    ]).addTo(map) ;
+}).addTo(map) ;
