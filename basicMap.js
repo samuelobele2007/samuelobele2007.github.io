@@ -32,7 +32,7 @@ var topo = L.tileLayer('https://basemap.nationalmap.gov/arcgis/rest/services/USG
 	attribution: 'Tiles courtesy of the <a href="https://usgs.gov/">U.S. Geological Survey</a>'
 });
 
-let baseMMaps = {
+let baseMaps = {
   Street: street,
   Topographic: topo
 }
